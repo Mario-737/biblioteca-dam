@@ -17,7 +17,7 @@ public class Biblioteca {
     public void mostrarLibros() {
         for (int i = 0; i < libros.length; i++) {
             if (libros[i]!=null) {
-                System.out.println(libros[i].getTitulo());
+                System.out.printf("%s, escrito por %s\n",libros[i].getTitulo(), libros[i].getAutor());
             }
             
         }
