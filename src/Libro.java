@@ -7,4 +7,12 @@ public class Libro {
         this.autor = autor;
     }
 
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
 }
