@@ -8,5 +8,8 @@ public class Main {
         b.agregarLibro(l2);
 
         b.mostrarLibros();
+
+        l1.prestarLibro();
+        l1.devolverLibro();
     }
 }
