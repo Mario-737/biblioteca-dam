@@ -16,7 +16,7 @@ public class Libro {
 
     public void devolverLibro() {
         prestado=false;
-        System.out.println("Libro devuelto");
+        System.out.println("El libro se ha devuelto");
     }
 
 
