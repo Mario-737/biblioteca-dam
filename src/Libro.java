@@ -11,12 +11,12 @@ public class Libro {
 
     public void prestarLibro() {
         prestado=true;
-        System.out.println("El libro se ha prestado");
+        System.out.println("Libro prestado");
     }
 
     public void devolverLibro() {
         prestado=false;
-        System.out.println("El libro se ha devuelto");
+        System.out.println("Libro devuelto");
     }
 
 
